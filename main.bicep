@@ -1,6 +1,6 @@
 param acrName string 
 param appServicePlanName string
-param webAppName string ='mariana-webapp'
+param webAppName string ='mariana-webapp1'
 param location string
 param containerRegistryImageName string = 'flask-demo'
 param containerRegistryImageVersion string = 'latest'
