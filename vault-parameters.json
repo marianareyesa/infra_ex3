@@ -2,18 +2,15 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-      "acrName": {
-        "value": "marianareyesa4"
+      "keyVaultName": {
+        "value": "mariana-kv1"
       },
       "location": {
         "value": "North Central US"
       },
-      "appServicePlanName":{ 
-        "value": "marianareyesa-appserviceplan"
-      },
-      "keyVaultName": {
-        "value": "mariana-kv1"
+      "acrName": {
+        "value": "marianareyesa4"
       }
-
+    }
   }
-}
+  
